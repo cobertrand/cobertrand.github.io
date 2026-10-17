@@ -1,3 +1,11 @@
+:root {
+    --main-content-bg: rgb(100,100,100);
+
+}
+/* .dark {
+    --main-content-bg: rgb(25,25,25);
+} */
+
 body {
-    background-color: rgb(50, 50, 50);
+    background-color: var(--main-content-bg);
 }
